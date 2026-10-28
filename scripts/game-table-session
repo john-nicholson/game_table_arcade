@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+exec bash "$HOME/.local/share/game-table/app/scripts/session.sh"

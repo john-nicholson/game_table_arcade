@@ -1,0 +1,24 @@
+[
+  {
+    "id": "super-tilt-bro-usa-legacy",
+    "title": "Super Tilt Bro (2 players, legacy USA build)",
+    "filename": "super-tilt-bro-usa.nes",
+    "players": 2,
+    "author": "Sylvain Gadrat and contributors",
+    "license": "WTFPL",
+    "source": "https://github.com/sgadrat/super-tilt-bro",
+    "url": "https://raw.githubusercontent.com/libretro/libretro-content/8bd0ddf57bc487edd3e45ddb53dea849a9e8e4a8/Nintendo%20-%20Nintendo%20Entertainment%20System/Super%20Tilt%20Bro%20%28USA%29.nes",
+    "sha256": "cd5aa1cd306c07fdf22ace164070dc7a7afe72c561e34945c2a0f5eefb6d1c20"
+  },
+  {
+    "id": "nova-the-squirrel-1.0.6a",
+    "title": "Nova the Squirrel (1 player)",
+    "filename": "nova-the-squirrel.nes",
+    "players": 1,
+    "author": "NovaSquirrel and contributors",
+    "license": "GPL-3.0-or-later (code); CC-BY-NC-SA-4.0 (assets)",
+    "source": "https://github.com/NovaSquirrel/NovaTheSquirrel/tree/v1.0.6a",
+    "url": "https://github.com/NovaSquirrel/NovaTheSquirrel/releases/download/v1.0.6a/nova.nes",
+    "sha256": "e4780e90b9d1587489bfb797d2ca395be21371ea9262fa9f87f99324ec6960ab"
+  }
+]

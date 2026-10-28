@@ -1,0 +1,8 @@
+{
+  "data_dir": "~/Games/game-table",
+  "display_output": "",
+  "display_rotation": "normal",
+  "player1_index": 0,
+  "player2_index": 1,
+  "menu_driver": "ozone"
+}

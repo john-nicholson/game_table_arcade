@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+app="$HOME/.local/share/game-table/app"
+case "${1:-help}" in
+    launch)
+        shift
+        if [[ -z ${DISPLAY:-}${WAYLAND_DISPLAY:-} ]]; then
+            echo 'Launch from a graphical session (or choose Coffee Table Arcade at login).' >&2
+            exit 1
+        fi
+        mkdir -p "$HOME/.local/state/game-table"
+        exec retroarch --config "$HOME/.config/game-table/retroarch.cfg" "$@" \
+            >> "$HOME/.local/state/game-table/retroarch.log" 2>&1
+        ;;
+    configure|download|doctor)
+        exec python3 "$app/scripts/arcade.py" "$@"
+        ;;
+    help|--help|-h)
+        echo 'Usage: game-table {configure|download|doctor|launch}'
+        ;;
+    *) echo "Unknown command: $1" >&2; exit 2 ;;
+esac
